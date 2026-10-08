@@ -143,11 +143,10 @@ export const botConfig = {
       // Default footer text used in bot embeds.
       text: "Titan Bot",
       // Footer icon URL (null = no icon).
-      icon: https://media.discordapp.net/attachments/1544351576083267625/1552363012638384178/Texas_State_Roleplay_Footer.png?ex=6ac873f7&is=6ac72277&hm=048ae82cd965d0c0990c488a7228b2b82743e3b87168db9f99839919c3cbc87d&=&format=webp&quality=lossless,
+      icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: https://media.discordapp.net/attachments/1552561059251097611/1552561391393701929/content.png?ex=6ac883f8&is=6ac73278&hm=1ebc2959ad1766fa35fa8a807532ed0bec6cb0db7a2ede05f40ebee06fe59abb&=&format=webp&quality=lossless,
-    author: {
+    thumbnail: null: {
       // Optional default embed author block.
       name: null,
       icon: null,
