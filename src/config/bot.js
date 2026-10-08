@@ -152,12 +152,12 @@ export const botConfig = {
       icon: null,
       url: null,
     },
-  },
+  
 
   // =========================
   // ECONOMY SETTINGS
   // =========================
-  economy: {
+  economy, {
     currency: {
       // Currency display name.
       name: "coins",
@@ -204,9 +204,9 @@ export const botConfig = {
   // SHOP SETTINGS
   // =========================
   // Add shop defaults here when needed.
-  shop: {
+{
 
-  },
+  
 
   // =========================
   // TICKET SYSTEM
