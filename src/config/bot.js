@@ -146,7 +146,7 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: null 
+    thumbnail: null, 
       // Optional default embed author block.
       name: null,
       icon: null,
