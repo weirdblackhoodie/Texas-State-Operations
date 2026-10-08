@@ -97,10 +97,10 @@ export const botConfig = {
       secondary: "#C19A6B",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#C19A6B",
+      error: "#C19A6B",
+      warning: "#C19A6B",
+      info: "#C19A6B",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -117,26 +117,26 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#C19A6B",
+        ended: "#C19A6B",
       },
       ticket: {
         open: "#C19A6B",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        claimed: "#C19A6B",
+        closed: "#C19A6B",
+        pending: "#C19A6B",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
-      moderation: "#9B59B6",
+      moderation: "#C19A6B",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#C19A6B",
+        low: "#C19A6B",
+        medium: "#C19A6B",
+        high: "#C19A6B",
+        urgent: "#C19A6B",
       },
     },
     footer: {
@@ -217,33 +217,33 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1552078827281322033],
 
     // Priority options users/staff can assign.
     priorities: {
       none: {
         emoji: "⚪",
-        color: "#95A5A6",
+        color: "#C19A6B",
         label: "None",
       },
       low: {
         emoji: "🟢",
-        color: "#2ECC71",
+        color: "#C19A6B",
         label: "Low",
       },
       medium: {
         emoji: "🟡",
-        color: "#F1C40F",
+        color: "#C19A6B",
         label: "Medium",
       },
       high: {
         emoji: "🔴",
-        color: "#E74C3C",
+        color: "#C19A6B",
         label: "High",
       },
       urgent: {
         emoji: "🚨",
-        color: "#E91E63",
+        color: "#C19A6B",
         label: "Urgent",
       },
     },
@@ -252,10 +252,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: null,
+    archiveCategory: 1552078832599826595,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1552078832599826595,
   },
 
   // =========================
