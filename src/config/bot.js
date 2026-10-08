@@ -93,14 +93,14 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#C19A6B",
-      secondary: "#C19A6B",
+      primary: "#336699",
+      secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#C19A6B",
-      error: "#C19A6B",
-      warning: "#C19A6B",
-      info: "#C19A6B",
+      success: "#57F287",
+      error: "#ED4245",
+      warning: "#FEE75C",
+      info: "#3498DB",
 
       // Neutral utility colors.
       light: "#FFFFFF",
@@ -117,26 +117,26 @@ export const botConfig = {
 
       // Feature-specific colors.
       giveaway: {
-        active: "#C19A6B",
-        ended: "#C19A6B",
+        active: "#57F287",
+        ended: "#ED4245",
       },
       ticket: {
-        open: "#C19A6B",
-        claimed: "#C19A6B",
-        closed: "#C19A6B",
-        pending: "#C19A6B",
+        open: "#57F287",
+        claimed: "#FAA61A",
+        closed: "#ED4245",
+        pending: "#99AAB5",
       },
       economy: "#F1C40F",
       birthday: "#E91E63",
-      moderation: "#C19A6B",
+      moderation: "#9B59B6",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#C19A6B",
-        low: "#C19A6B",
-        medium: "#C19A6B",
-        high: "#C19A6B",
-        urgent: "#C19A6B",
+        none: "#95A5A6",
+        low: "#3498db",
+        medium: "#2ecc71",
+        high: "#f1c40f",
+        urgent: "#e74c3c",
       },
     },
     footer: {
@@ -146,18 +146,19 @@ export const botConfig = {
       icon: null,
     },
     // Default thumbnail URL for embeds (null = no thumbnail).
-    thumbnail: null, 
+    thumbnail: null,
+    author: {
       // Optional default embed author block.
       name: null,
       icon: null,
       url: null,
     },
-  
+  },
 
   // =========================
   // ECONOMY SETTINGS
   // =========================
-  economy, {
+  economy: {
     currency: {
       // Currency display name.
       name: "coins",
@@ -204,9 +205,9 @@ export const botConfig = {
   // SHOP SETTINGS
   // =========================
   // Add shop defaults here when needed.
-{
+  shop: {
 
-  
+  },
 
   // =========================
   // TICKET SYSTEM
@@ -216,33 +217,33 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [1552078827281322033],
+    supportRoles: [],
 
     // Priority options users/staff can assign.
     priorities: {
       none: {
         emoji: "⚪",
-        color: "#C19A6B",
+        color: "#95A5A6",
         label: "None",
       },
       low: {
         emoji: "🟢",
-        color: "#C19A6B",
+        color: "#2ECC71",
         label: "Low",
       },
       medium: {
         emoji: "🟡",
-        color: "#C19A6B",
+        color: "#F1C40F",
         label: "Medium",
       },
       high: {
         emoji: "🔴",
-        color: "#C19A6B",
+        color: "#E74C3C",
         label: "High",
       },
       urgent: {
         emoji: "🚨",
-        color: "#C19A6B",
+        color: "#E91E63",
         label: "Urgent",
       },
     },
@@ -251,10 +252,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: 1552078832599826595,
+    archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: 1552078832599826595,
+    logChannel: null,
   },
 
   // =========================
@@ -276,7 +277,7 @@ export const botConfig = {
     maximumDuration: 2592000000,
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [1552078827356688496],
+    allowedRoles: [],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
@@ -448,7 +449,7 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: false,
+    economy: true,
     leveling: true,
     moderation: true,
     logging: true,
@@ -457,12 +458,12 @@ export const botConfig = {
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: false,
+    birthday: true,
     counter: true,
 
     // Security and self-service systems.
     verification: true,
-    reactionRoles: false,
+    reactionRoles: true,
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
@@ -472,7 +473,7 @@ export const botConfig = {
     utility: true,
     community: true,
     fun: true,
-    music: false,
+    music: true,
   },
 };
 
