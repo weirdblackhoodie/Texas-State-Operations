@@ -97,46 +97,46 @@ export const botConfig = {
       secondary: "#C19A6B",
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287",
-      error: "#ED4245",
-      warning: "#FEE75C",
-      info: "#3498DB",
+      success: "#C19A6B",
+      error: "#C19A6B",
+      warning: "#C19A6B",
+      info: "#C19A6B",
 
       // Neutral utility colors.
-      light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      light: "#C19A6B",
+      dark: "#C19A6B",
+      gray: "#C19A6B",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
-      green: "#57F287",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
-      black: "#000000",
+      blurple: "#C19A6B",
+      green: "#C19A6B",
+      yellow: "#C19A6B",
+      fuchsia: "#C19A6B",
+      red: "#C19A6B",
+      black: "#C19A6B",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#C19A6B",
+        ended: "#C19A6B",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "C19A6B",
+        claimed: "#C19A6B",
+        closed: "#C19A6B",
+        pending: "#C19A6B",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#C19A6B",
+      birthday: "#C19A6B",
+      moderation: "#C19A6B",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "C19A6B",
+        low: "#C19A6B",
+        medium: "#C19A6B",
+        high: "#C19A6B",
+        urgent: "#C19A6B",
       },
     },
     footer: {
@@ -449,7 +449,7 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
+    economy: false,
     leveling: true,
     moderation: true,
     logging: true,
@@ -458,12 +458,12 @@ export const botConfig = {
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: true,
+    birthday: false,
     counter: true,
 
     // Security and self-service systems.
     verification: true,
-    reactionRoles: true,
+    reactionRoles: false,
     joinToCreate: true,
 
     // Utility/quality-of-life modules.
@@ -473,7 +473,7 @@ export const botConfig = {
     utility: true,
     community: true,
     fun: true,
-    music: true,
+    music: false,
   },
 };
 
